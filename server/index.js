@@ -14,7 +14,7 @@ app.use(cors());
 // MONGOOSE CONNECTION
 
 const CONNECTION_URL =
-  "mongodb+srv://kartikey11:kartikey11@cluster0.eylrt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "MONGO_URI";
 const PORT = process.env.PORT || 5000;
 
 mongoose
